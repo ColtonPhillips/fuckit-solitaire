@@ -5,7 +5,7 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\harmonica</sound>
+    <sound>sound\snd_harmonica</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="warning">
@@ -21,7 +21,7 @@
     <objects name="warning">
       <object>objects\obj_colton</object>
       <object>objects\obj_thegame</object>
-      <object>objects\obt_thegame_controller</object>
+      <object>objects\obj_thegame_controller</object>
     </objects>
   </objects>
   <rooms name="rooms">
