@@ -121,9 +121,8 @@ going_the_distance = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-    room_goto_next()
-
+            <string>room_goto_next()
+sound_stop(snd_harmonica)
 </string>
           </argument>
         </arguments>

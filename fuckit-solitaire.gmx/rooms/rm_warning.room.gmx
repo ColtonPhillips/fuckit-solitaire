@@ -4,7 +4,7 @@
   <width>800</width>
   <height>800</height>
   <vsnap>32</vsnap>
-  <hsnap>6</hsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -51,7 +51,7 @@
   </views>
   <instances>
     <instance objName="obj_thegame_controller" x="512" y="960" name="inst_65B2D4B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_thegame_controller" x="416" y="128" name="inst_7AD37A59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_thegame_controller" x="408" y="128" name="inst_7AD37A59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_colton" x="-416" y="-96" name="inst_7EC95D4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_profile" x="108" y="384" name="inst_080402CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_profile" x="684" y="384" name="inst_BA870E9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

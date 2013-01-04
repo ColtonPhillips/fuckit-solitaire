@@ -97,7 +97,7 @@ the_big_diff = 0.001;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_alpha = image_alpha + the_big_diff;
+            <string>image_alpha = clamp(image_alpha + the_big_diff, 0,1)
 </string>
           </argument>
         </arguments>
