@@ -4,17 +4,24 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\harmonica</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="warning">
       <sprite>sprites\spr_colton</sprite>
+      <sprite>sprites\spr_thegame</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_warning</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <objects name="warning">
       <object>objects\obj_colton</object>
+      <object>objects\obj_thegame</object>
+      <object>objects\obt_thegame_controller</object>
     </objects>
   </objects>
   <rooms name="rooms">
