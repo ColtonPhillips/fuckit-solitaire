@@ -125,9 +125,6 @@ else if (not spawned_a_fucking_guy)
     counter = counter + 1;
     x = x + 1;
     
-    fart = not fart;
-    if (fart) {y = y - 1;}
-    
 }
 else 
 {

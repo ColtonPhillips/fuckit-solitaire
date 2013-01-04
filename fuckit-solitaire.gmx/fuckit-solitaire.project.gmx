@@ -11,6 +11,7 @@
     <sprites name="warning">
       <sprite>sprites\spr_colton</sprite>
       <sprite>sprites\spr_thegame</sprite>
+      <sprite>sprites\spr_profile</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -22,10 +23,12 @@
       <object>objects\obj_colton</object>
       <object>objects\obj_thegame</object>
       <object>objects\obj_thegame_controller</object>
+      <object>objects\obj_profile</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_warning</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
