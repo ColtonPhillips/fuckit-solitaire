@@ -5,7 +5,9 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\snd_harmonica</sound>
+    <sounds name="warning">
+      <sound>sound\snd_harmonica</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="warning">
@@ -13,9 +15,15 @@
       <sprite>sprites\spr_thegame</sprite>
       <sprite>sprites\spr_profile</sprite>
     </sprites>
+    <sprites name="solitaire">
+      <sprite>sprites\spr_words</sprite>
+      <sprite>sprites\spr_sketches</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\bg_warning</background>
+    <backgrounds name="warning">
+      <background>background\bg_warning</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -25,10 +33,13 @@
       <object>objects\obj_thegame_controller</object>
       <object>objects\obj_profile</object>
     </objects>
+    <objects name="outro">
+      <object>objects\obj_sketches</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_warning</room>
-    <room>rooms\room1</room>
+    <room>rooms\outro</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
